@@ -18,6 +18,10 @@ public class CM3038Coursework {
         // TODO code application logic here
         
         System.out.println("CM3038 AI Coursework");
+        Scanner in = new Scanner(System.in);
+        String name = in.next();
+        System.out.println("Your name is: " + name);
+        
     }
     
 }
